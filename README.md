@@ -13,7 +13,7 @@ The task is to implement three methods using "for", "while" and "do" statements.
 
 ## Complete the Task
 
-You are allowed to use loop statements (for, while and do), [Array.Length](https://docs.microsoft.com/en-us/dotnet/api/system.array.length) and [Array.IList.Item[Int32]](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item) properties only. You are not allowed to use other static or instance methods of the [Array class](https://docs.microsoft.com/en-us/dotnet/api/system.array) or any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
+You are allowed to use loop statements (for, while and do), [Array.Length](https://docs.microsoft.com/en-us/dotnet/api/system.array.length) and [Array.IList.Item](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item) properties only. You are not allowed to use other static or instance methods of the [Array class](https://docs.microsoft.com/en-us/dotnet/api/system.array) or any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
 
 
 1. Analyze the implementation of the "GetNegativeIntegerCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetNegativeIntegerCount" method. See the method documentation and TODO.
@@ -57,4 +57,4 @@ If a compiler error or warning message is not clear, [review errors details](htt
   * [do..while statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do)
 * .NET API
   * [Array.Length Property](https://docs.microsoft.com/en-us/dotnet/api/system.array.length)
-  * [Array.IList.Item[Int32] Property](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item)
+  * [Array.IList.Item Property](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item)
