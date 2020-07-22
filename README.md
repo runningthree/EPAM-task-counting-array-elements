@@ -13,6 +13,9 @@ The task is to implement three methods using "for", "while" and "do" statements.
 
 ## Complete the Task
 
+You are allowed to use loop statements (for, while and do), [Array.Length](https://docs.microsoft.com/en-us/dotnet/api/system.array.length) and [Array.IList.Item[Int32]](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item) properties only. You are not allowed to use other static or instance methods of the [Array class](https://docs.microsoft.com/en-us/dotnet/api/system.array) or any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
+
+
 1. Analyze the implementation of the "GetNegativeIntegerCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetNegativeIntegerCount" method. See the method documentation and TODO.
 1. Analyze the implementation of the "GetEvenNumberCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetEvenNumberCount" method. See the method documentation and TODO.
 1. Analyze the implementation of the "GetByteWithBitsInHighNibbleCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetByteWithBitsInHighNibbleCount" method. See the method documentation and TODO.
