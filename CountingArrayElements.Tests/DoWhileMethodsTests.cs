@@ -68,7 +68,7 @@ namespace CountingArrayElements.Tests
             int actualResult = DoWhileMethods.GetZeroDecimalCount(arrayToSearch);
 
             // Assert
-            Assert.AreEqual(actualResult, expectedResult);
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
@@ -85,7 +85,7 @@ namespace CountingArrayElements.Tests
             int actualResult = DoWhileMethods.GetZeroDecimalCountRecursive(arrayToSearch);
 
             // Assert
-            Assert.AreEqual(actualResult, expectedResult);
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
