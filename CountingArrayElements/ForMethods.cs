@@ -11,8 +11,18 @@ namespace CountingArrayElements
         /// <returns>The number of occurrences of negative integers.</returns>
         public static int GetNegativeIntegerCount(int[] arrayToSearch)
         {
-            // TODO #1. Analyze the implementation of "GetNegativeIntegerCountRecursive" methods, and implement the method using the "for" loop statement.
-            throw new NotImplementedException();
+            if (arrayToSearch is null)
+            {
+                throw new ArgumentNullException(nameof(arrayToSearch));
+            }
+
+            int result = 0;
+            for (int i = 0; i < arrayToSearch.Length; i++)
+            {
+               result += arrayToSearch[i] < 0 ? 1 : 0;
+            }
+
+            return result;
         }
 
         /// <summary>
@@ -22,8 +32,23 @@ namespace CountingArrayElements
         /// <returns>The number of occurrences of even numbers.</returns>
         public static int GetEvenNumberCount(float[] arrayToSearch)
         {
-            // TODO #2. Analyze the implementation of "GetEvenNumberCountRecursive" methods, and implement the method using the "for" loop statement.
-            throw new NotImplementedException();
+            if (arrayToSearch is null)
+            {
+                throw new ArgumentNullException(nameof(arrayToSearch));
+            }
+
+            if (arrayToSearch.Length == 0)
+            {
+                return 0;
+            }
+
+            int result = 0;
+            for (int i = 0; i < arrayToSearch.Length; i++)
+            {
+                result += arrayToSearch[i] % 2 == 0 ? 1 : 0;
+            }
+
+            return result;
         }
 
         /// <summary>
@@ -33,8 +58,18 @@ namespace CountingArrayElements
         /// <returns>The number of occurrences of bytes with enabled bits in high nibble.</returns>
         public static int GetByteWithBitsInHighNibbleCount(byte[] arrayToSearch)
         {
-            // TODO #3. Analyze the implementation of "GetByteWithBitsInHighNibbleCountRecursive" methods, and implement the method using the "for" loop statement.
-            throw new NotImplementedException();
+            if (arrayToSearch is null)
+            {
+                throw new ArgumentNullException(nameof(arrayToSearch));
+            }
+
+            int result = 0;
+            for (int i = arrayToSearch.Length - 1; i >= 0; i--)
+            {
+                result = (arrayToSearch[i] & 0xF0) > 0 ? result + 1 : result;
+            }
+
+            return result;
         }
 
         /// <summary>
